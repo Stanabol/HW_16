@@ -1,0 +1,12 @@
+extends ../template/layout.pug
+
+//- include blocks here
+include ../blocks/btn/_btn.pug
+include ../blocks/section_one/_section_one.pug
+include ../blocks/section_two/_section_two.pug
+
+block page
+    //- type pug code here
+    +section_one
+    +section_two
+    //- +btn('send')
