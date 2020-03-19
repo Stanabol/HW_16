@@ -1,5 +1,8 @@
 .section_one {
+    margin: 0 auto;
     margin-top: 82px;
+    max-width: 1100px;
+
     
     &__box {
         display: grid;

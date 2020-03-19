@@ -5764,7 +5764,9 @@ html {
 }
 
 .section_one {
+  margin: 0 auto;
   margin-top: 82px;
+  max-width: 1100px;
 }
 .section_one__box {
   display: grid;
@@ -5831,7 +5833,9 @@ html {
 }
 
 .section_two {
+  margin: 0 auto;
   margin-top: 20px;
+  max-width: 1100px;
 }
 .section_two__box {
   display: grid;
@@ -5840,7 +5844,7 @@ html {
   gap: 15px;
   grid-template-columns: 360px 360px 360px;
 }
-.section_two__second {
+.section_two__table {
   background: #FFFFFF;
 }
 .section_two__date-table {
@@ -5867,6 +5871,10 @@ html {
 .section_two__icon {
   padding-left: 20px;
   padding-bottom: 20px;
+}
+
+.body {
+  background: #E5E5E5;
 }
 
 /*# sourceMappingURL=style.css.map */
