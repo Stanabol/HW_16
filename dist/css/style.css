@@ -5790,6 +5790,9 @@ html {
   text-transform: uppercase;
   color: #818181;
 }
+.section_one__img {
+  display: block;
+}
 .section_one__title {
   margin: 0;
   position: absolute;
@@ -5844,6 +5847,9 @@ html {
   width: 100%;
   gap: 15px;
   grid-template-columns: 360px 360px 360px;
+}
+.section_two__img {
+  display: block;
 }
 .section_two__table {
   background: #FFFFFF;

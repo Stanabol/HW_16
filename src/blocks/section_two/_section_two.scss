@@ -13,7 +13,9 @@
         grid-template-columns: 360px 360px 360px;
     }
     
-    
+    &__img {
+        display: block;
+    }
     // &__date {
     //     position: absolute;
     //     bottom: 105px;
