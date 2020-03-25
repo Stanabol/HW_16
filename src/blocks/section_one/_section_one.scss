@@ -1,5 +1,8 @@
 .section_one {
+    margin: 0 auto;
     margin-top: 82px;
+    max-width: 1100px;
+
     
     &__box {
         display: grid;
@@ -24,6 +27,9 @@
         line-height: 14px;
         text-transform: uppercase;
         color: #818181;
+    }
+    &__img {
+        display: block;
     }
 
     &__title {

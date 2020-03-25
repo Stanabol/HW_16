@@ -5764,7 +5764,9 @@ html {
 }
 
 .section_one {
+  margin: 0 auto;
   margin-top: 82px;
+  max-width: 1100px;
 }
 .section_one__box {
   display: grid;
@@ -5787,6 +5789,9 @@ html {
   line-height: 14px;
   text-transform: uppercase;
   color: #818181;
+}
+.section_one__img {
+  display: block;
 }
 .section_one__title {
   margin: 0;
@@ -5892,6 +5897,10 @@ html {
 
 .section_two__c:hover {
   opacity: 0.8;
+}
+
+.body {
+  background: #E5E5E5;
 }
 
 /*# sourceMappingURL=style.css.map */
