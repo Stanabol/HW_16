@@ -5777,6 +5777,7 @@ html {
 }
 .section_one__first {
   position: relative;
+  margin-left: -5px;
 }
 .section_one__date {
   position: absolute;
