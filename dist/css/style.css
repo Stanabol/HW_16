@@ -5770,15 +5770,15 @@ html {
   display: grid;
   margin: 0 auto;
   width: 100%;
-  gap: 15px;
-  grid-template-columns: 740px 360px;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
 }
 .section_one__first {
   position: relative;
 }
 .section_one__date {
   position: absolute;
-  bottom: 105px;
+  bottom: 97px;
   left: 30px;
   font-family: Roboto;
   font-style: normal;
@@ -5791,7 +5791,7 @@ html {
 .section_one__title {
   margin: 0;
   position: absolute;
-  bottom: 30px;
+  bottom: 24px;
   left: 30px;
   padding-right: 250px;
   font-family: "Roboto";
@@ -5801,13 +5801,14 @@ html {
   line-height: 42px;
   text-transform: uppercase;
   color: #FFFFFF;
+  letter-spacing: 0.01em;
 }
 .section_one__second {
   background: #FFFFFF;
 }
 .section_one__date-table {
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 16px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -5817,7 +5818,7 @@ html {
   color: #818181;
 }
 .section_one__text {
-  padding: 9px 20px 74px 20px;
+  padding: 9px 15px 95px 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -5825,27 +5826,35 @@ html {
   line-height: 26px;
   text-transform: uppercase;
   color: #1D1D1D;
+  letter-spacing: 0.007em;
 }
 .section_one__icon {
   padding-left: 20px;
 }
 
+.section_one__first:hover {
+  opacity: 0.8;
+}
+
+.section_one__second:hover {
+  opacity: 0.8;
+}
+
 .section_two {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .section_two__box {
   display: grid;
   margin: 0 auto;
-  width: 100%;
-  gap: 15px;
-  grid-template-columns: 360px 360px 360px;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .section_two__second {
   background: #FFFFFF;
 }
 .section_two__date-table {
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 16px;
+  padding-bottom: 10px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -5855,7 +5864,7 @@ html {
   color: #818181;
 }
 .section_two__text {
-  padding: 9px 20px 94px 20px;
+  padding-right: 15px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -5863,10 +5872,26 @@ html {
   line-height: 26px;
   text-transform: uppercase;
   color: #1D1D1D;
+  letter-spacing: 0.01em;
+}
+.section_two__table {
+  margin-left: 20px;
 }
 .section_two__icon {
-  padding-left: 20px;
+  padding-top: 93px;
   padding-bottom: 20px;
+}
+
+.section_two__a:hover {
+  opacity: 0.8;
+}
+
+.section_two__b:hover {
+  opacity: 0.8;
+}
+
+.section_two__c:hover {
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=style.css.map */

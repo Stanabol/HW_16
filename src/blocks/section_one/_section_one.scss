@@ -5,8 +5,8 @@
         display: grid;
         margin: 0 auto;
         width: 100%;
-        gap: 15px;
-        grid-template-columns: 740px 360px;
+        gap: 20px;
+        grid-template-columns: 2fr 1fr;
     }
     
     &__first {
@@ -15,7 +15,7 @@
 
     &__date {
         position: absolute;
-        bottom: 105px;
+        bottom: 97px;
         left: 30px;
         font-family: Roboto;
         font-style: normal;
@@ -29,7 +29,7 @@
     &__title {
         margin: 0;
         position: absolute;
-        bottom: 30px;
+        bottom: 24px;
         left: 30px;
         padding-right: 250px;
         font-family: 'Roboto';
@@ -39,14 +39,16 @@
         line-height: 42px;
         text-transform: uppercase;
         color: #FFFFFF;
+        letter-spacing: 0.01em;
     }
+    
     &__second {
         background: #FFFFFF;
     }
 
     &__date-table {
         padding-left: 20px;
-        padding-top: 20px;
+        padding-top: 16px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 300;
@@ -57,7 +59,7 @@
     }
 
     &__text {
-        padding: 9px 20px 74px 20px;
+        padding: 9px 15px 95px 20px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
@@ -65,10 +67,18 @@
         line-height: 26px;
         text-transform: uppercase;
         color: #1D1D1D;
+        letter-spacing: 0.007em;
     }
 
     &__icon {
         padding-left: 20px;
-        // padding-bottom: 20px;
     }
 }
+
+.section_one__first:hover {
+    opacity: 0.8;
+}  
+
+.section_one__second:hover {
+    opacity: 0.8;
+}  
